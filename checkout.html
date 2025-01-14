@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/logos/icons8-tech-64.png"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="menu-button">&#9776;</div>
+        <div class="sidebar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="logo">
+          <img src="images/logos/TechManiacs.png" alt="TechManiacs logo" />
+        </div>
+        <div class="options">
+          <div class="menu-container">
+            <div class="menu-option">
+              <a href="index.html" class="dropdown-toggle">Home</a>
+            </div>
+          </div>
+          <div class="menu-container">
+            <div class="menu-option">
+              <a href="#" class="dropdown-toggle">Shop</a>
+              <div class="dropdown">
+                <div class="dropdown-flex">
+                  <div class="col-3-first">
+                    <a href="#">Service 1</a>
+                    <a href="#">Service 2</a>
+                    <a href="#">Service 3</a>
+                    <a href="#">Service 4</a>
+                    <a href="#">Service 5</a>
+                  </div>
+                  <div class="col-3-second">
+                    <a href="#">Service 6</a>
+                    <a href="#">Service 7</a>
+                    <a href="#">Service 8</a>
+                    <a href="#">Service 9</a>
+                    <a href="#">Service 10</a>
+                  </div>
+                  <div class="col-3-third">
+                    <a href="#">Service 11</a>
+                    <a href="#">Service 12</a>
+                    <a href="#">Service 13</a>
+                    <a href="#">Service 14</a>
+                    <a href="#">Service 15</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-container">
+            <div class="menu-option">
+              <a href="about.html" class="dropdown-toggle">About</a>
+              <div class="dropdown-col-1">
+                <div class="col">
+                  <a href="#">Item 1</a>
+                  <a href="#">Item 2</a>
+                  <a href="#">Item 3</a>
+                  <a href="#">Item 4</a>
+                  <a href="#">Item 5</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-container">
+            <div class="menu-option">
+              <a href="contact.html" class="dropdown-toggle">Contact</a>
+              <div class="dropdown-col-1">
+                <div class="col">
+                  <a href="#">Item 1</a>
+                  <a href="#">Item 2</a>
+                  <a href="#">Item 3</a>
+                  <a href="#">Item 4</a>
+                  <a href="#">Item 5</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-profile">
+          <div class="container-search-bar">
+            <input
+              id="searchBar"
+              class="searchbar"
+              type="text"
+              placeholder="Search..."
+            />
+            <a id="btnSearch" class="btn-search"
+              ><i class="fa fa-search"></i
+            ></a>
+          </div>
+          <div class="profile">
+            <a href="profile.html" class="profile-icon"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </div>
+          <div class="wishlist">
+            <a href="wishlist.html" class="liked-icon"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+          <div class="basket">
+            <a class="cart-opener" href="cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="badge">0</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-checkout">
+        <div class="container-contact">
+          <div class="container-return-to-home">
+            <a href="index.html">Home</a>
+            <div class="space-bar">|</div>
+            <a href="cart.html">Cart</a>
+            <div class="space-bar">|</div>
+            <p class="account">Checkout</p>
+          </div>
+        </div>
+        <div class="container-checkout-order">
+          <div class="checkout-section">
+            <div class="checkout-form">
+              <h2 class="header-of-form">Billing Details</h2>
+              <div class="container-fname-lname">
+                <div class="form-control-checkout">
+                  <label for="fname">First Name *</label>
+                  <input type="fname" id="fname" />
+                </div>
+                <div class="form-control-checkout">
+                  <label for="lname">Last Name *</label>
+                  <input type="lname" id="lname" />
+                </div>
+              </div>
+              <div class="form-control-checkout">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" />
+              </div>
+              <div class="form-control-checkout">
+                <label for="country/reg">Country/Region *</label>
+                <input type="country/reg" id="country/reg" />
+              </div>
+              <div class="form-control-checkout">
+                <label for="str-address">Street Address *</label>
+                <input type="str-address" id="str-address" />
+                <input type="str-address" id="str-address" />
+              </div>
+              <div class="form-control-checkout">
+                <label for="town">Town *</label>
+                <input type="town" id="town" />
+              </div>
+              <div class="form-control-checkout">
+                <label for="state">State *</label>
+                <input type="state" id="state" />
+              </div>
+              <div class="form-control-checkout">
+                <label for="zip-code">Zip-Code *</label>
+                <input type="zip-code" id="zip-code" />
+              </div>
+              <div class="form-control-checkout">
+                <label for="phone">Phone *</label>
+                <input type="phone" id="phone" />
+              </div>
+              <h3 class="header-of-form">Additional Information</h3>
+              <div class="form-control-checkout">
+                <label for="notes">Order Notes (Optional)</label>
+                <textarea
+                  name="notes"
+                  id="notes"
+                  placeholder="Notes about your order,e.g special notes for delivery."
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="container-order">
+            <div class="your-order">
+              <div class="order-header">
+                <p>Your Order</p>
+              </div>
+              <div class="information-product">
+                <p>Product</p>
+                <p>Subtotal</p>
+              </div>
+              <div class="information-subtotal">
+                <p>Subtotal</p>
+                <p>0.00&euro;</p>
+              </div>
+              <div class="information-shipping">
+                <div class="information-shipping-element">
+                  <p>Shipping</p>
+                </div>
+                <form>
+                  <label>
+                    Local pickup
+                    <input
+                      type="radio"
+                      name="Local-pickup"
+                      value="Local-pickup"
+                      checked
+                    /> </label
+                  ><br />
+                  <label>
+                    Flat rate: 15.00&euro;
+                    <input type="radio" name="Local-pickup" value="Flat-rate" />
+                  </label>
+                </form>
+              </div>
+              <div class="information-total">
+                <p>Total</p>
+                <p>0.00&euro;</p>
+              </div>
+              <div class="information-payment-method">
+                <form>
+                  <label>
+                    <input
+                      type="radio"
+                      name="payment-method"
+                      value="Bank-Transfer"
+                      checked
+                    />
+                    Direct bank transfer </label
+                  ><br />
+                  <label>
+                    <input
+                      type="radio"
+                      name="payment-method"
+                      value="Cash-on-delivery"
+                    />
+                    Cash on delivery
+                  </label>
+                </form>
+              </div>
+              <div class="information-terms">
+                <label>
+                  <input type="checkbox" name="terms" value="terms" />
+                  I have read and agree to the website <span class="terms">terms and conditions</span>
+                </label>
+              </div>
+              <div class="place-order-container">
+                <button class="place-order-button">Place Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-footer">
+        <div class="line">
+          <div class="container-of-policies">
+            <i class="fa-solid fa-box"></i>
+            <p>FREE SHIPPING & RETURN POLICY</p>
+          </div>
+          <div class="container-of-policies">
+            <i class="fa-solid fa-headset"></i>
+            <p>90-DAY WARRANTY</p>
+          </div>
+          <div class="container-of-policies">
+            <i class="fa-regular fa-credit-card"></i>
+            <p>NEW PRODUCT OFFERINGS & DEALS</p>
+          </div>
+        </div>
+        <div class="container-footer-options">
+          <div class="footer-options">
+            <h5>Information</h5>
+            <ul class="list-of-options">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">PI Collection Notice</a></li>
+              <li><a href="#">Do Not Sell My Info</a></li>
+              <li><a href="#">Accessibility Commitment</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+          <div class="footer-options">
+            <h5>Shop</h5>
+            <ul class="list-of-options">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">PI Collection Notice</a></li>
+              <li><a href="#">Do Not Sell My Info</a></li>
+              <li><a href="#">Accessibility Commitment</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+          <div class="footer-options">
+            <h5>About us</h5>
+            <ul class="list-of-options">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">PI Collection Notice</a></li>
+              <li><a href="#">Do Not Sell My Info</a></li>
+              <li><a href="#">Accessibility Commitment</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+          <div class="footer-options">
+            <h5>Our Policy</h5>
+            <ul class="list-of-options">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">PI Collection Notice</a></li>
+              <li><a href="#">Do Not Sell My Info</a></li>
+              <li><a href="#">Accessibility Commitment</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="newsletter-copyright-container">
+          <div class="border">
+            <div class="newsletter">
+              <p>Sign up to our Newsletter</p>
+              <input type="email" placeholder="Your Email Address.." />
+              <div class="icons-container">
+                <p>Follow us on:</p>
+                <div class="icons">
+                  <a
+                    href="https://www.linkedin.com/in/xristos-apostolidis-5aa0912ab/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/ChrApostolidis" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>&copy; Chris Apostolidis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/sidebar.js"></script>
+  </body>
+</html>

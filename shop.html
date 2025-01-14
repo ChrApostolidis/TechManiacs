@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/logos/icons8-tech-64.png"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="menu-button">&#9776;</div>
+        <div class="sidebar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logos/TechManiacs.png" alt="TechManiacs logo"
+          /></a>
+        </div>
+        <div class="options">
+          <div class="menu-container">
+            <div class="menu-option">
+              <a href="index.html" class="dropdown-toggle">Home</a>
+            </div>
+          </div>
+          <div class="menu-container">
+            <div class="menu-option">
+              <a href="#" class="dropdown-toggle">Shop</a>
+              <div class="dropdown">
+                <div class="dropdown-flex">
+                  <div class="col-3-first">
+                    <a href="#">Service 1</a>
+                    <a href="#">Service 2</a>
+                    <a href="#">Service 3</a>
+                    <a href="#">Service 4</a>
+                    <a href="#">Service 5</a>
+                  </div>
+                  <div class="col-3-second">
+                    <a href="#">Service 6</a>
+                    <a href="#">Service 7</a>
+                    <a href="#">Service 8</a>
+                    <a href="#">Service 9</a>
+                    <a href="#">Service 10</a>
+                  </div>
+                  <div class="col-3-third">
+                    <a href="#">Service 11</a>
+                    <a href="#">Service 12</a>
+                    <a href="#">Service 13</a>
+                    <a href="#">Service 14</a>
+                    <a href="#">Service 15</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-container">
+            <div class="menu-option">
+              <a href="about.html" class="dropdown-toggle">About</a>
+              <div class="dropdown-col-1">
+                <div class="col">
+                  <a href="#">Item 1</a>
+                  <a href="#">Item 2</a>
+                  <a href="#">Item 3</a>
+                  <a href="#">Item 4</a>
+                  <a href="#">Item 5</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-container">
+            <div class="menu-option">
+              <a href="contact.html" class="dropdown-toggle">Contact</a>
+              <div class="dropdown-col-1">
+                <div class="col">
+                  <a href="#">Item 1</a>
+                  <a href="#">Item 2</a>
+                  <a href="#">Item 3</a>
+                  <a href="#">Item 4</a>
+                  <a href="#">Item 5</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-profile">
+          <div class="container-search-bar">
+            <input
+              id="searchBar"
+              class="searchbar"
+              type="text"
+              placeholder="Search..."
+            />
+            <a id="btnSearch" class="btn-search"
+              ><i class="fa fa-search"></i
+            ></a>
+          </div>
+          <div class="profile">
+            <a href="profile.html" class="profile-icon"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </div>
+          <div class="wishlist">
+            <a href="wishlist.html" class="liked-icon"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+          <div class="basket">
+            <a class="cart-opener" href="cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="badge">0</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-return-to-home">
+        <a href="index.html">Home</a>
+        <div class="space-bar">|</div>
+        <p class="account">Shop</p>
+      </div>
+      <div class="shop-container">
+        <div class="shop-header-row">
+          <p >Showing 12 products</p>
+          <div class="shop-select">
+            <label for="products">Sort By:</label>
+            <select name="products" id="products">
+              <option value="popularity">Popularity</option>
+              <option value="low-high">Price(Low-High)</option>
+              <option value="high-low">Price(High-Low)</option>
+              <option value="a-z">Name(A-Z)</option>
+              <option value="z-a">Name(Z-A)</option>
+            </select>
+          </div>
+        </div>
+        <div class="container-shop-grid">
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/iphone 15 pro max2.png" alt="iphone" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Iphone 15 Pro Max 256GB</p>
+              <p class="product-price">1599.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/iphone 14 pro.png" alt="iphone" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Iphone 14 Pro 128GB</p>
+              <p class="product-price">1399.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/iphone 15.png" alt="iphone" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Iphone 15 Pro 128GB</p>
+              <p class="product-price">1499.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/samsung Flip.png" alt="samsung Flip" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Samsung Flip 8GB/128GB</p>
+              <p class="product-price">1599.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/lg-monitor.png" alt="lg-monitor" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">LG Monitor 32c (2560x1440)</p>
+              <p class="product-price">599.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/Samsung Flip Z.png" alt="Samsung Flip Z" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Samsung Flip Z 512GB</p>
+              <p class="product-price">1799.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/ps-vr.png" alt="playstation-VR" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Playstation-VR</p>
+              <p class="product-price">799.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/Iphone 14 pro2.png" alt="iphone 14" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Iphone 14 128GB</p>
+              <p class="product-price">1099.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/dell-monitor.png" alt="acer-monitor" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Acer 27q 144hz</p>
+              <p class="product-price">399.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/macbook m2.png" alt="macbook" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Macbook M2</p>
+              <p class="product-price">1399.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/gaming-laptop.png" alt="hp omen" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Hp Omen (i7/RTX 4080 6GB)</p>
+              <p class="product-price">1499.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="container-products-shop">
+            <div class="product-shop-image">
+              <img src="pngs/xbox-controller.png" alt="xbox-controller" />
+            </div>
+            <div class="product-shop-text">
+              <p class="product-text">Xbox Pro Controller</p>
+              <p class="product-price">99.99 &euro;</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-footer">
+        <div class="line">
+          <div class="container-of-policies">
+            <i class="fa-solid fa-box"></i>
+            <p>FREE SHIPPING & RETURN POLICY</p>
+          </div>
+          <div class="container-of-policies">
+            <i class="fa-solid fa-headset"></i>
+            <p>90-DAY WARRANTY</p>
+          </div>
+          <div class="container-of-policies">
+            <i class="fa-regular fa-credit-card"></i>
+            <p>NEW PRODUCT OFFERINGS & DEALS</p>
+          </div>
+        </div>
+        <div class="container-footer-options">
+          <div class="footer-options">
+            <h5>Information</h5>
+            <ul class="list-of-options">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">PI Collection Notice</a></li>
+              <li><a href="#">Do Not Sell My Info</a></li>
+              <li><a href="#">Accessibility Commitment</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+          <div class="footer-options">
+            <h5>Shop</h5>
+            <ul class="list-of-options">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">PI Collection Notice</a></li>
+              <li><a href="#">Do Not Sell My Info</a></li>
+              <li><a href="#">Accessibility Commitment</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+          <div class="footer-options">
+            <h5>About us</h5>
+            <ul class="list-of-options">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">PI Collection Notice</a></li>
+              <li><a href="#">Do Not Sell My Info</a></li>
+              <li><a href="#">Accessibility Commitment</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+          <div class="footer-options">
+            <h5>Our Policy</h5>
+            <ul class="list-of-options">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">PI Collection Notice</a></li>
+              <li><a href="#">Do Not Sell My Info</a></li>
+              <li><a href="#">Accessibility Commitment</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="newsletter-copyright-container">
+          <div class="border">
+            <div class="newsletter">
+              <p>Sign up to our Newsletter</p>
+              <input type="email" placeholder="Your Email Address.." />
+              <div class="icons-container">
+                <p>Follow us on:</p>
+                <div class="icons">
+                  <a
+                    href="https://www.linkedin.com/in/xristos-apostolidis-5aa0912ab/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/ChrApostolidis" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>&copy; Chris Apostolidis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/slider.js"></script>
+    <script src="/js/slideShow.js"></script>
+    <script src="/js/sidebar.js"></script>
+  </body>
+</html>
